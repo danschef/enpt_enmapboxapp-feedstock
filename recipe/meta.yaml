@@ -1,5 +1,5 @@
 {% set name = "enpt_enmapboxapp" %}
-{% set version = "0.7.10" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/enpt_enmapboxapp-{{ version }}.tar.gz
-  sha256: 2cbc41646177ee29709b11941f6e08d0da3daddcd270b5092d47bf6aca477bd4
+  sha256: 0a3351caecdc8a884fc4a78be26d28d467406031dad659eedee7b57e026e8821
 
 build:
   noarch: python
@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - importlib-metadata
     - packaging
   run:
-    - python >=3.7
+    - python >=3.8
     - importlib-metadata
     - packaging
     - psutil
@@ -29,6 +29,10 @@ requirements:
 test:
   imports:
     - enpt_enmapboxapp
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://git.gfz-potsdam.de/EnMAP/GFZ_Tools_EnMAP_BOX/enpt_enmapboxapp
