@@ -18,11 +18,9 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - importlib-metadata
     - packaging
   run:
     - python >=3.8
-    - importlib-metadata
     - packaging
     - psutil
 
