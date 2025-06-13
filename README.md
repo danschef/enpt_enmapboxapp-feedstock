@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-enpt_enmapboxapp-green.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-enpt__enmapboxapp-green.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/enpt_enmapboxapp.svg)](https://anaconda.org/conda-forge/enpt_enmapboxapp) |
 
 Installing enpt_enmapboxapp
 ===========================
