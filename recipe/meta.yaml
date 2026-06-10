@@ -1,5 +1,5 @@
 {% set name = "enpt_enmapboxapp" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/enpt_enmapboxapp-{{ version }}.tar.gz
-  sha256: a2c9bd41854ea11b11a4dfee599222a27244d772b964e4010f8dd020cb17fa89
+  sha256: 180c28bd85fe3e92f4d2c778de58b80ffa4239b06eea531e644593bb9d4e7b2f
 
 build:
   noarch: python
